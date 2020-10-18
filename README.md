@@ -21,15 +21,13 @@ $git submodule update
 
 #### Configure shotgunEvents
 
-| - Copy docker-sg-event/shotgunEvents/src/shotgunEventDaemon.conf to docker-sg-event/
-|
-| - Modify docker-sg-event/shotgunEventDaemon.conf
-| 
-| - Copy docker-sg-event/env/evnet-variables.env.example to docker-sg-event/env/evnet-variables.env
-|
-| - Modify docker-sg-event/env/evnet-variables.env to add shotgun url and script users/keys
-|
-| - Copy plugin to docker-sg-event/plugins
+'''
+- Copy docker-sg-event/shotgunEvents/src/shotgunEventDaemon.conf to docker-sg-event/
+- Modify docker-sg-event/shotgunEventDaemon.conf
+- Copy docker-sg-event/env/evnet-variables.env.example to docker-sg-event/env/evnet-variables.env
+- Modify docker-sg-event/env/evnet-variables.env to add shotgun url and script users/keys
+- Copy plugin to docker-sg-event/plugins
+'''
 
 #### Switch between python2 and python3
 
