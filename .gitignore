@@ -10,6 +10,9 @@
 
 #python specific
 *.pyc
+!spec/*.pyc
+
+plugins/__pycache__
 
 ## generic files to ignore
 *~
@@ -18,8 +21,6 @@
 *.swp
 *.out
 *.bak
-log/*
-plugins/*
 
 # setup related
 shotgunEventDaemon.conf
