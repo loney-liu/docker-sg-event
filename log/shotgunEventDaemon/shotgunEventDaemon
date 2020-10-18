@@ -1,6 +1,0 @@
-2020-10-18 01:55:32,207 - engine - INFO - Using Shotgun Python API version 3.2.4
-2020-10-18 01:55:32,216 - engine - INFO - Loading plugin at plugins/version_status_update_task_status.py
-2020-10-18 01:55:33,200 - engine - DEBUG - Starting the event processing loop.
-2020-10-18 01:55:33,707 - engine - DEBUG - Got 3 events: 2127464 to 2127466.
-2020-10-18 01:55:42,784 - engine - DEBUG - Got 4 events: 2127467 to 2127470.
-2020-10-18 01:56:52,986 - engine - DEBUG - Shuting down event processing loop.
