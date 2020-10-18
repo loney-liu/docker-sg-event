@@ -13,6 +13,7 @@
 !spec/*.pyc
 
 plugins/__pycache__
+log/*
 
 ## generic files to ignore
 *~
