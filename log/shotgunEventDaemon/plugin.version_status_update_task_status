@@ -1,0 +1,21 @@
+2020-10-18 01:55:33,188 - plugin.version_status_update_task_status - DEBUG - Registered callback.
+2020-10-18 01:55:33,713 - plugin.version_status_update_task_status - DEBUG - Dispatching event 2127465 to callback version_status_changed.
+2020-10-18 01:55:34,417 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Status [apr] Task Status mapping: fin
+2020-10-18 01:55:34,419 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Task current status: retk
+2020-10-18 01:55:34,724 - plugin.version_status_update_task_status.version_status_changed - DEBUG - New Task status: fin
+2020-10-18 01:55:34,726 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Version Task: {'id': 6438, 'name': 'Art', 'type': 'Task'}
+2020-10-18 01:55:35,041 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Setting Date Approved value to: 2020-10-17 18:51:11-07:00
+2020-10-18 01:55:35,043 - plugin.version_status_update_task_status.version_status_changed - INFO - Running [2] batch command(s) to update Version and Task values ...
+2020-10-18 01:55:35,048 - plugin.version_status_update_task_status.version_status_changed - DEBUG -     {'request_type': 'update', 'entity_type': 'Task', 'entity_id': 6438, 'data': {'sg_status_list': 'fin'}}
+2020-10-18 01:55:35,049 - plugin.version_status_update_task_status.version_status_changed - DEBUG -     {'request_type': 'update', 'entity_type': 'Version', 'entity_id': 7223, 'data': {'client_approved_at': datetime.datetime(2020, 10, 17, 18, 51, 11, tzinfo=<DstTzInfo 'US/Pacific' PDT-1 day, 17:00:00 DST>)}}
+2020-10-18 01:55:35,547 - plugin.version_status_update_task_status.version_status_changed - DEBUG -     RESULTS: [{'type': 'Task', 'id': 6438, 'sg_status_list': 'fin'}, {'type': 'Version', 'id': 7223, 'client_approved_at': '2020-10-18 01:51:11 UTC'}]
+2020-10-18 01:55:35,557 - plugin.version_status_update_task_status - DEBUG - Dispatching event 2127466 to callback version_status_changed.
+2020-10-18 01:55:36,252 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Status [apr] Task Status mapping: fin
+2020-10-18 01:55:36,254 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Task current status: ip
+2020-10-18 01:55:36,641 - plugin.version_status_update_task_status.version_status_changed - DEBUG - New Task status: fin
+2020-10-18 01:55:36,643 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Version Task: {'id': 7206, 'name': 'test', 'type': 'Task'}
+2020-10-18 01:55:36,923 - plugin.version_status_update_task_status.version_status_changed - DEBUG - Setting Date Approved value to: 2020-10-17 18:52:10-07:00
+2020-10-18 01:55:36,925 - plugin.version_status_update_task_status.version_status_changed - INFO - Running [2] batch command(s) to update Version and Task values ...
+2020-10-18 01:55:36,926 - plugin.version_status_update_task_status.version_status_changed - DEBUG -     {'request_type': 'update', 'entity_type': 'Task', 'entity_id': 7206, 'data': {'sg_status_list': 'fin'}}
+2020-10-18 01:55:36,928 - plugin.version_status_update_task_status.version_status_changed - DEBUG -     {'request_type': 'update', 'entity_type': 'Version', 'entity_id': 7113, 'data': {'client_approved_at': datetime.datetime(2020, 10, 17, 18, 52, 10, tzinfo=<DstTzInfo 'US/Pacific' PDT-1 day, 17:00:00 DST>)}}
+2020-10-18 01:55:37,245 - plugin.version_status_update_task_status.version_status_changed - DEBUG -     RESULTS: [{'type': 'Task', 'id': 7206, 'sg_status_list': 'fin'}, {'type': 'Version', 'id': 7113, 'client_approved_at': '2020-10-18 01:52:10 UTC'}]

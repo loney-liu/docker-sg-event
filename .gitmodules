@@ -1,0 +1,6 @@
+[submodule "shotgunEvents"]
+	path = shotgunEvents
+	url = https://github.com/shotgunsoftware/shotgunEvents
+[submodule "python-api"]
+	path = python-api
+	url = https://github.com/shotgunsoftware/python-api

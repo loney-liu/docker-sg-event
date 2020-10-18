@@ -1,0 +1,3 @@
+six
+pytz
+file:///event/python-api
